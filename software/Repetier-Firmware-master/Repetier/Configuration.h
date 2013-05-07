@@ -56,7 +56,7 @@
 
 
 /** \brief Number of steps for a 1mm move in x direction. Overridden if EEPROM activated. */
-#define XAXIS_STEPS_PER_MM 4000
+#define XAXIS_STEPS_PER_MM 1060
 
 
 
@@ -548,7 +548,7 @@ on this endstop.
 // maximum positions in mm - only fixed numbers!
 #define X_MAX_LENGTH 125
 #define Y_MAX_LENGTH -1
-#define Z_MAX_LENGTH 600
+#define Z_MAX_LENGTH 173
 
 // ##########################################################################################
 // ##                           Movement settings                                          ##
@@ -571,7 +571,7 @@ on this endstop.
     The axis order in all axis related arrays is X, Y, Z
      Overridden if EEPROM activated.
     */
-#define MAX_FEEDRATE {2400, 2400, 1000}
+#define MAX_FEEDRATE {1000, 2400, 1000}
 /** Speed in mm/min for finding the home position.  Overridden if EEPROM activated. */
 #define HOMING_FEEDRATE {2400,2400,1000}
 
