@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{224EE628-2ABF-4883-BF05-BD627F417AB8}</ProjectGuid>
+    <RootNamespace>Repetier</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\William\Desktop\Declutter\arduino-0023\arduino-0023\hardware\arduino\cores\at90usb1286;c:\users\william\desktop\declutter\arduino-0023\arduino-0023\hardware\tools\avr\avr\include\;c:\users\william\desktop\declutter\arduino-0023\arduino-0023\hardware\tools\avr\avr\include\avr\;c:\users\william\desktop\declutter\arduino-0023\arduino-0023\hardware\tools\avr\avr\;c:\users\william\desktop\declutter\arduino-0023\arduino-0023\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\William\Desktop\Declutter\PiMakerHost\Repetier-Firmware-master\Repetier\Visual Micro\.Repetier.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>ARDUINO=23;__AVR_AT90USB1286__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Repetier.pde">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Eeprom.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="FatStructs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="gcode.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Reptier.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Sd2Card.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Sd2PinMap.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFat.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFatmainpage.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFatUtil.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdInfo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="uiconfig.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="uilang.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Visual Micro\.Repetier.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="Eeprom.cpp" />
+    <ClCompile Include="Extruder.cpp" />
+    <ClCompile Include="gcode.cpp" />
+    <ClCompile Include="Sd2Card.cpp" />
+    <ClCompile Include="SdFile.cpp" />
+    <ClCompile Include="SdVolume.cpp" />
+    <ClCompile Include="ui.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="COM47" arduino.board.name="cdcteensylu" arduino.board.desc="[BootloaderCDC]Teensylu/Printrboard" arduino.board.property_bag="cdcteensylu.name=[BootloaderCDC]Teensylu/Printrboard&#xD;&#xA;cdcteensylu.upload.protocol=avr109&#xD;&#xA;cdcteensylu.upload.maximum_size=130048&#xD;&#xA;cdcteensylu.build.mcu=at90usb1286&#xD;&#xA;cdcteensylu.build.f_cpu=16000000L&#xD;&#xA;cdcteensylu.build.core=at90usb1286&#xD;&#xA;cdcteensylu.build.define0=-DUSB_SERIAL&#xD;&#xA;cdcteensylu.build.define1=-DLAYOUT_US_ENGLISH&#xD;&#xA;cdcteensylu.upload.speed=115200&#xD;&#xA;" arduino.build.mcu="at90usb1286" arduino.build.f_cpu="16000000L" arduino.build.core="at90usb1286" arduino.upload.protocol="avr109" arduino.upload.speed="115200" arduino.upload.maximum_size="130048" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

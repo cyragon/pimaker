@@ -1,0 +1,8 @@
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\obj\Debug\AsfFilter.Form1.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\obj\Debug\CapWMV-2008.csproj.GenerateResource.Cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\bin\Debug\CapWMV.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\bin\Debug\CapWMV.pdb
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\bin\Debug\DirectShowLib-2005.dll
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\obj\Debug\CapWMV.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\CapWMV\obj\Debug\CapWMV.pdb

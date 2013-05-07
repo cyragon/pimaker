@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMaker", "PiMaker.csproj", "{B118044A-6AC1-407D-8CE9-A624810BEE0C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PiMakerSetup", "..\PiMakerSetup\PiMakerSetup.vdproj", "{57CEE5F9-2D02-4A21-9FE8-0DA4E16BC836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MacOSX|Any CPU = MacOSX|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.MacOSX|Any CPU.ActiveCfg = MacOSX|Any CPU
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.MacOSX|Any CPU.Build.0 = MacOSX|Any CPU
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B118044A-6AC1-407D-8CE9-A624810BEE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CEE5F9-2D02-4A21-9FE8-0DA4E16BC836}.Debug|Any CPU.ActiveCfg = Debug
+		{57CEE5F9-2D02-4A21-9FE8-0DA4E16BC836}.MacOSX|Any CPU.ActiveCfg = Release
+		{57CEE5F9-2D02-4A21-9FE8-0DA4E16BC836}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RepetierHost.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal

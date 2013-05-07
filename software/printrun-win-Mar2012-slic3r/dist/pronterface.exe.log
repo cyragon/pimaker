@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM37: [Error 2] The system cannot find the file specified.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 68, in open
+  File "serial\serialwin32.pyc", line 177, in _reconfigurePort
+ValueError: Cannot configure port, some setting was wrong. Original message: [Error 31] A device attached to the system is not functioning.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM34: [Error 5] Access is denied.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM37: [Error 2] The system cannot find the file specified.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM37: [Error 2] The system cannot find the file specified.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM39: [Error 170] The requested resource is in use.
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM34: [Error 5] Access is denied.

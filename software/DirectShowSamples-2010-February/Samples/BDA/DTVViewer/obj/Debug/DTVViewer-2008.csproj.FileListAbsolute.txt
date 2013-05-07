@@ -1,0 +1,11 @@
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DirectShowLib.Sample.AboutBoxWnd.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DirectShowLib.Sample.DVBSTuning.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DirectShowLib.Sample.DVBTTuning.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DirectShowLib.Sample.MainForm.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DTVViewer-2008.csproj.GenerateResource.Cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\bin\Debug\DTVViewer.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\bin\Debug\DTVViewer.pdb
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\bin\Debug\DirectShowLib-2005.dll
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DTVViewer.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\BDA\DTVViewer\obj\Debug\DTVViewer.pdb

@@ -1,0 +1,8 @@
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\bin\Debug\PlayCap.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\bin\Debug\PlayCap.pdb
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\bin\Debug\DirectShowLib-2005.dll
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\obj\Debug\DirectShowLib.Samples.Form1.resources
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\obj\Debug\PlayCap-2008.csproj.GenerateResource.Cache
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\obj\Debug\PlayCap.exe
+C:\Users\William\Desktop\DirectShowSamples-2010-February\Samples\Capture\PlayCap\obj\Debug\PlayCap.pdb

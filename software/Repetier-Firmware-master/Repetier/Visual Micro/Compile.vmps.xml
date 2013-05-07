@@ -1,0 +1,14 @@
+<VisualMicro>
+  <Program Name="Repetier" Ext=".pde" Location="C:\PiMaker\PiMaker\PiMakerHost\Repetier-Firmware-master\Repetier">
+    <Compile IsCompiled="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Ben Farmer\AppData\Local\VMicro\Arduino\Builds\Repetier\cdcteensylu" IncludeDebug="0" IncludesDebug="0" SketchName="Repetier" CompilerErrors="1" />
+    <Platform Name="Arduino">
+      <Board bootloader.extended_fuses="0xFD" bootloader.file="ATmegaBOOT_644P.hex" bootloader.high_fuses="0xDC" bootloader.lock_bits="0x0F" bootloader.low_fuses="0xFF" bootloader.path="atmega644p" bootloader.unlock_bits="0x3F" Name="cdcteensylu" Description="[BootloaderCDC]Teensylu/Printrboard" CoreFolder="C:\PiMaker\arduino-0022\hardware\at90usb1286\cores\at90usb1286" VariantFullPath="" build.core="at90usb1286" build.define0="-DUSB_SERIAL" build.define1="-DLAYOUT_US_ENGLISH" build.f_cpu="16000000L" build.mcu="at90usb1286" name="[BootloaderCDC]Teensylu/Printrboard" upload.maximum_size="130048" upload.protocol="avr109" upload.speed="115200" />
+    </Platform>
+    <Debug />
+    <VCCodeModel>
+      <VCCodeMacros>
+        <VCCodeMacro Name="PINS_H" />
+      </VCCodeMacros>
+    </VCCodeModel>
+  </Program>
+</VisualMicro>

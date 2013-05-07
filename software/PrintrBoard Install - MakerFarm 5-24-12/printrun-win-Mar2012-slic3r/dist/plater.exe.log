@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "wx\_core.pyc", line 14669, in <lambda>
+  File "wx\_core.pyc", line 9771, in Refresh
+TypeError: in method 'Window_Refresh', expected argument 1 of type 'wxWindow *'
